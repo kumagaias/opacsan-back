@@ -1,0 +1,4 @@
+entrypoint: bundle exec rails s
+runtime: ruby25
+env_variables:
+  secret_key_base: 697b73037775158be153b37196b37eb57938a4dea3fc883f8324c29372e138c99c090a2c017164768a55849e4f9ccf727342520ec7dab2524702fdb3d5c2f35e

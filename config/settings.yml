@@ -1,0 +1,13 @@
+activation:
+  expire: 21600
+email:
+  from: 'no-reply@opacsan.com'
+error:
+  invalid_activation_params: 'invalidActivationParams'
+  invalid_auth_params: 'invalidAuthParams'
+session:
+  expire: 7200
+url: 'https://opacsan.com'
+redis:
+  host: <%= Rails.application.credentials.redis[:host] %>
+  port: <%= Rails.application.credentials.redis[:port] %>

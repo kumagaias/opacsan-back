@@ -1,0 +1,25 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        name: 'userName'
+        email: 'userEmail'
+        password: 'userPassword'
+        password_confirmation: 'userPassword'
+      library:
+        name: 'libraryName'
+    errors:
+      messages:
+        record_invalid: '%{errors}'
+  errors:
+    format: "%{attribute}%{message}"
+    messages:
+      taken: 'Taken'
+      confirmation: 'Confirmation'
+      too_short: 'Short'
+      too_long: 'Long'
+    invalid_auth_params: 'ライブラリ名またはメールアドレスまたはパスワードが正しくありません。'
+  email:
+    activation:
+      subject: 'opacさんへようこそ！会員登録を完了させてください。'
+      content: "下記にアクセスし会員登録を完了させてください。\n%{url}"
